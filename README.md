@@ -1,3 +1,2 @@
 # gending-javva
-```bash
-Sebuah album yang dijadikan dalam 1 web```
+<h1 align="center">Awesome GitHub Profile README
