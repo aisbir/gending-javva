@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Gending jawa</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid"> 
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary btn-sm" onclick="search()">Cari gending</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="#mijil">Ktw. mijil wigaringtyas</a>
+                  <a href="#pertiwi">Ktw. ibu pertiwi</a>
+                  <a href="#boyong">Ktw. boyong basuki</a>
+                  <a href="#wilujeng">Ldr. wilujeng</a>
+                  <a href="#kebogiro">Lcr kebogiro</a>
+                  <a href="#santi">Santi mulyo</a>
+                  <a href="#mugi">Ldr. mugirahayu</a>
+                  <a href="#gley">Ldr. gleyong</a>
+                  <a href="#sriwi">Ldr. Sriwidodo</a>
+                </div>
+              </div>
+              <style>
+                .dropbtn {
+                  background-color: #04AA6D;
+                  color: white;
+                  padding: 16px;
+                  font-size: 16px;
+                  border: none;
+                  cursor: pointer;
+                }
+                
+                .dropbtn:hover, .dropbtn:focus {
+                  background-color: #3e8e41;
+                }
+                
+                #myInput {
+                  box-sizing: border-box;
+                  background-image: url('searchicon.png');
+                  background-position: 14px 12px;
+                  background-repeat: no-repeat;
+                  font-size: 16px;
+                  padding: 14px 20px 12px 45px;
+                  border: none;
+                  border-bottom: 1px solid #ddd;
+                }
+                
+                #myInput:focus {outline: 3px solid #ddd;}
+                
+                .dropdown {
+                  position: relative;
+                  display: inline-block;
+                }
+                
+                .dropdown-content {
+                  display: none;
+                  position: absolute;
+                  background-color: #f6f6f6;
+                  min-width: 230px;
+                  overflow: auto;
+                  border: 1px solid #ddd;
+                  z-index: 1;
+                }
+                
+                .dropdown-content a {
+                  color: black;
+                  padding: 12px 16px;
+                  text-decoration: none;
+                  display: block;
+                }
+                
+                .dropdown a:hover {background-color: #ddd;}
+                
+                .show {display: block;}
+                </style>
+              <script>
+              /* When the user clicks on the button,
+              toggle between hiding and showing the dropdown content */
+              function search() {
+                document.getElementById("myDropdown").classList.toggle("show");
+              }
+              
+              function filterFunction() {
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("myInput");
+                filter = input.value.toUpperCase();
+                div = document.getElementById("myDropdown");
+                a = div.getElementsByTagName("a");
+                for (i = 0; i < a.length; i++) {
+                  txtValue = a[i].textContent || a[i].innerText;
+                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                  } else {
+                    a[i].style.display = "none";
+                  }
+                }
+              }
+              </script>
+          </div>
+        </div>
+      </nav>
+    <!--navbar end-->
+<!-- start gending-->
+<hr>
+<div class="text-center">
+<section id="mijil">
+<p class="fw-bold">Ktw. mijil wigaringtyas</p>
+<audio controls="">
+    <source src="http://docs.google.com/uc?export=open&amp;id=1Cr84a5orjd6iUVefkzJjsI_aAOy-jJZT">
+    </audio>
+</section>
+</div>
+<!--end gending-->
+<!-- start gending-->
+<hr>
+<div class="text-center">
+<section id="pertiwi">
+<p class="fw-bold">Ktw. ibu pertiwi</p>
+<audio controls="">
+    <source src="http://docs.google.com/uc?export=open&amp;id=1Eabp0OVI5AhTX99UTnDcer83UGeDumUZ">
+    </audio>
+</section>
+</div>
+<!--end gending-->
+<!-- start gending-->
+<hr>
+<div class="text-center">
+<section id="boyong">
+<p class="fw-bold">Ktw. boyong basuki</p>
+<audio controls="">
+    <source src="http://docs.google.com/uc?export=open&amp;id=1AMsAQ0UjJ2t9hF1zqI690Zm0nFWvgKHJ">
+    </audio>
+</section>
+</div>
+<!--end gending-->
+<!-- start gending-->
+<hr>
+<div class="text-center">
+<section id="wilujeng">
+<p class="fw-bold">Ldr. wilujeng</p>
+<audio controls="">
+    <source src="http://docs.google.com/uc?export=open&amp;id=18tmHTjMgaYlCIvzfHNe_THeCM7XvWyIp">
+    </audio>
+</section>
+</div>
+<!--end gending-->
+<!-- start gending-->
+<hr>
+<div class="text-center" data-aos="flip-down">
+<section id="kebogiro">
+<p class="fw-bold">Lcr kebogiro</p>
+<audio controls="">
+    <source src="http://docs.google.com/uc?export=open&amp;id=1zt7ked50PCOWvFwyUUhK0SZr4yQKxtmO">
+    </audio>
+</section>
+</div>
+<!--end gending-->
+<!-- start gending-->
+<hr>
+<div class="text-center" data-aos="flip-down">
+<section id="santi">
+<p class="fw-bold">Santi mulyo</p>
+<audio controls="">
+    <source src="http://docs.google.com/uc?export=open&amp;id=1V3i79Gh7UOUj72B0GKiM3ssyak7ALvsb">
+    </audio>
+</section>
+</div>
+<!--end gending-->
+<!-- start gending-->
+<hr>
+<div class="text-center" data-aos="flip-down">
+<section id="mugi">
+<p class="fw-bold">Ldr. mugirahayu</p>
+<audio controls="">
+    <source src="http://docs.google.com/uc?export=open&amp;id=1FKaCJwqzZsZri-p7t18JeyefbiqAM6PM">
+    </audio>
+</section>
+</div>
+<!--end gending-->
+<!-- start gending-->
+<hr>
+<div class="text-center" data-aos="flip-down">
+<section id="sriwi">
+<p class="fw-bold">Ldr. Sriwidodo</p>
+<audio controls="">
+    <source src="http://docs.google.com/uc?export=open&amp;id=1AGZlaZS2ylIJbN2EZuutUjC7OEr7q-HE">
+    </audio>
+</section>
+</div>
+<!--end gending-->
+<!-- start gending-->
+<hr>
+<div class="text-center">
+<section id="gley">
+<p class="fw-bold">Ldr. gleyong</p>
+<audio controls="">
+    <source src="http://docs.google.com/uc?export=open&amp;id=169EqEs_cqOlQR2PkwRSx8Emq3eSJ5j2p">
+    </audio>
+</section>
+</div>
+<!--end gending-->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>  
+  </body>
+</html>
