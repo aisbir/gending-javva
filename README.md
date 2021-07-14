@@ -1,2 +1,2 @@
 # gending-javva
-<h1 align="center">Awesome GitHub Profile README
+Di web ini gw cuma bikin website gabut doang ya seperti playlist album gamelan
