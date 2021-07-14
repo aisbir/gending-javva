@@ -1,2 +1,3 @@
 # gending-javva
-landing page aisbirkun test ea
+```bash
+Sebuah album yang dijadikan dalam 1 web```
